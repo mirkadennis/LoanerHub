@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Loaner Vehicle">b55ad03283692210def956d6feaad376</catalog_item>
+        <catalog_variable>IO:1aad545383f56210def956d6feaad3b5</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 01:15:48</sys_created_on>
+        <sys_id>35ee50d383f56210def956d6feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle_details</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_35ee50d383f56210def956d6feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 01:15:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Vehicle Details Read Only">376e549383f56210def956d6feaad339</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>vehicle_details</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=35ee50d383f56210def956d6feaad336"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</application>
+        <file_path/>
+        <instance_id>0b550d97fb674a141feef633beefdc0e</instance_id>
+        <instance_name>dev280278</instance_name>
+        <name>catalog_ui_policy_action_35ee50d383f56210def956d6feaad336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Loaner Vehicle">b55ad03283692210def956d6feaad376</catalog_item><catalog_variable>IO:1aad545383f56210def956d6feaad3b5</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-03 01:15:48</sys_created_on><sys_id>35ee50d383f56210def956d6feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vehicle_details</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope><sys_update_name>catalog_ui_policy_action_35ee50d383f56210def956d6feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-03 01:15:48</sys_updated_on><table/><ui_policy display_value="Make Vehicle Details Read Only">376e549383f56210def956d6feaad339</ui_policy><value/><value_action>ignore</value_action><variable>vehicle_details</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=35ee50d383f56210def956d6feaad336"/></record_update>]]></payload>
+        <payload_hash>-1914659873</payload_hash>
+        <record_name>vehicle_details</record_name>
+        <reverted_from/>
+        <source>3a23af6583a12210def956d6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 01:15:48</sys_created_on>
+        <sys_id>7b0f14d383f56210def956d6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197335be16d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 01:15:48</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>7f0f14d371f562102b7c22570327837d</update_guid>
+        <update_guid_history>7f0f14d371f562102b7c22570327837d:-1914659873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vehicle_details">7f13ec1b83f56210def956d6feaad3ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 01:33:34</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>46cbef1e85874b9c8bc0b26bbcead589</sys_id>
+        <sys_metadata>35ee50d383f56210def956d6feaad336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle_details</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_scope_delete display_value="">0af4f530209b4d108122cd2327537929</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_35ee50d383f56210def956d6feaad336</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_35ee50d383f56210def956d6feaad336">7b0f14d383f56210def956d6feaad37e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 01:33:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

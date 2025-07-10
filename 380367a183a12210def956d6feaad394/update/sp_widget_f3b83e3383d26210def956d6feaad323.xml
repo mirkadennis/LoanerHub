@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spUtil) {
+  spUtil.get('glide_user_profile').then(function(response) {
+    $scope.user = response;
+  });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>welcome_message</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>welcome message</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-29 22:15:39</sys_created_on>
+        <sys_id>f3b83e3383d26210def956d6feaad323</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>welcome message</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sp_widget_f3b83e3383d26210def956d6feaad323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 02:14:16</sys_updated_on>
+        <template><![CDATA[<div class="text-center p-5 rounded shadow-sm" style="background-color: #FFFFF;">
+  <h2 style="color: #1B263B; font-weight: 600;">Welcome to LoanerHub, {{::user.first_name}}!</h2>
+  <p style="color: #1B263B; font-size: 2.1rem;">Drive on, We've Got You Covered.</p>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

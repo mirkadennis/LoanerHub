@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1474716_lva.includeClass</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>includeClass</name>
+        <script><![CDATA[var includeClass = Class.create();// this creates a new js class named includeClass, which is my script include. it's like defining the "blueprint" or container for the server-side code i want to write. class.create is for service side API for defining classes.//
+includeClass.prototype = Object.extendsObject(global.AbstractAjaxProcessor, { // my includeClass inherits from AbstractAjaxProfessor. this line sets up my script include so it can be triggered by client-side GlideAjax calls. 
+
+   getUserLocation: function() { // defines the method inside my Script Include. this is the function that my client script calls (via GlideAjax) to get the user's location. 
+      var loc = ''; // i created an empty variable to hold the location calue i'll get later. 
+      var userSysId = this.getParameter('sysparm_user_name'); // i am getting the parameter named sysparm_user_name sent from the client script (user's sys_id) and storing it in userSysId. So, the function is preparing to query the user's record based on the sys_id passed from the client to eventually retireve the location. 
+
+      var userGR = new GlideRecord('sys_user'); // creates a new gliderecord object to wor with the sys_user table
+      userGR.addQuery('sys_id', userSysId); // added a query condition to find the user record where sys_id equals the userSysIdthat was passed in (fron the client script)
+      userGR.query(); // exceutes the query against the database.
+
+      if (userGR.next()) { // checks if a record was found, if yes,moves the gliderecord to that record so that i can access its fields.
+         loc = userGR.location.toString(); // This should give the location sys_id or name. gets the location field value from the user record, converts it to string )in case it's a reference), stores it inthe loc variable.
+      }
+
+      return loc;// returns the location value back to the client script that called this Script include method. 
+   },
+
+   type: 'includeClass' // defines the name of the script include class. it must match exactly the name i gave at the top. it helps identify the script include. 
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 04:46:38</sys_created_on>
+        <sys_id>cda8640283392210def956d6feaad342</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>includeClass</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sys_script_include_cda8640283392210def956d6feaad342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 05:40:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

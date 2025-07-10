@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" db_object_id="1d5e109735f0121087de27975354585f" extends="sys_metadata" label="Menu Item" max_length="40" name="sp_rectangle_menu_item" type="collection">
+        <element attributes="base_start=true" label="Display test" max_length="80" name="x_1474716_lva_display_test" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Display 33" max_length="40" name="x_1474716_lva_display_33" type="string"/>
+        <element attributes="encode_utf8=false" label="Display 3" max_length="32" name="x_1474716_lva_display_3" reference="x_1474716_lva_vehicle_loaner_catalog" type="reference"/>
+        <index name="index">
+            <element name="x_1474716_lva_display_3"/>
+        </index>
+    </element>
+</database>

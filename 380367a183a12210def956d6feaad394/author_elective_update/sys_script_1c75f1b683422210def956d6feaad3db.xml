@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1474716_lva_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Sync Vehicle status </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script/>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 04:45:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c75f1b683422210def956d6feaad3db</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Sync Vehicle status </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sys_script_1c75f1b683422210def956d6feaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 18:10:06</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=1c75f1b683422210def956d6feaad3db"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</application>
+        <file_path/>
+        <instance_id>0b550d97fb674a141feef633beefdc0e</instance_id>
+        <instance_name>dev280278</instance_name>
+        <name>sys_script_1c75f1b683422210def956d6feaad3db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script"><sys_script action="INSERT_OR_UPDATE"><abort_action>false</abort_action><access>package_private</access><action_delete>false</action_delete><action_insert>true</action_insert><action_query>false</action_query><action_update>true</action_update><active>false</active><add_message>false</add_message><advanced>false</advanced><change_fields>false</change_fields><client_callable>false</client_callable><collection>x_1474716_lva_vehicle_tracker</collection><condition/><description/><execute_function>false</execute_function><filter_condition/><is_rest>false</is_rest><message/><name>Sync Vehicle status </name><order>100</order><priority>100</priority><rest_method/><rest_method_text/><rest_service/><rest_service_text/><rest_variables/><role_conditions/><script/><sys_class_name>sys_script</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-14 04:45:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1c75f1b683422210def956d6feaad3db</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Sync Vehicle status </sys_name><sys_overrides/><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope><sys_update_name>sys_script_1c75f1b683422210def956d6feaad3db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-14 18:10:06</sys_updated_on><template/><when>after</when></sys_script><sys_translated_text action="delete_multiple" query="documentkey=1c75f1b683422210def956d6feaad3db"/></record_update>]]></payload>
+        <payload_hash>1475611506</payload_hash>
+        <record_name>Sync Vehicle status </record_name>
+        <reverted_from/>
+        <source>3a23af6583a12210def956d6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 18:10:06</sys_created_on>
+        <sys_id>acb0740b83022210def956d6feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976fa270e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 18:10:06</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>e0b0740b34022210b5b8e8872a223f47</update_guid>
+        <update_guid_history>e0b0740b34022210b5b8e8872a223f47:1475611506,c470f84779022210d811e2151e6bee6c:747293548,a54e68073b022210cd3a8263ca5a3ede:1145113694,40ec393eea42221022db48fa3a1272fb:1793067596,65e9b5ba96422210b4bc62ed89c9ca85:-2046589268,6379b1faed422210fa850171d6009458:539780157,4da8b1bace422210a68bb7b77499221e:-1434210685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-14 18:11:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>09f3b942400f4705b576b44b0cf9ee09</sys_id>
+        <sys_metadata>1c75f1b683422210def956d6feaad3db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sync Vehicle status </sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_parent display_value="Vehicle Tracker">3117ffad83e12210def956d6feaad364</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_scope_delete display_value="">0af4f530209b4d108122cd2327537929</sys_scope_delete>
+        <sys_update_name>sys_script_1c75f1b683422210def956d6feaad3db</sys_update_name>
+        <sys_update_version display_value="sys_script_1c75f1b683422210def956d6feaad3db">acb0740b83022210def956d6feaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-14 18:11:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

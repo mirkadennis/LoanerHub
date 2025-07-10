@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1474716_lva_vehicle_tracker_test">x_1474716_lva_vehicle_tracker_test</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>VEH</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:45:42</sys_created_on>
+        <sys_id>c8624cf483b12210def956d6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VEH</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sys_number_c8624cf483b12210def956d6feaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:45:42</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</application>
+        <file_path/>
+        <instance_id>0b550d97fb674a141feef633beefdc0e</instance_id>
+        <instance_name>dev280278</instance_name>
+        <name>sys_number_c8624cf483b12210def956d6feaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1474716_lva_vehicle_tracker_test">x_1474716_lva_vehicle_tracker_test</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>VEH</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-26 04:45:42</sys_created_on><sys_id>c8624cf483b12210def956d6feaad355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VEH</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope><sys_update_name>sys_number_c8624cf483b12210def956d6feaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-26 04:45:42</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1208326828</payload_hash>
+        <record_name>VEH</record_name>
+        <reverted_from/>
+        <source>3a23af6583a12210def956d6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:45:42</sys_created_on>
+        <sys_id>9c624cf483b12210def956d6feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1970ae92cad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:45:42</sys_updated_on>
+        <type>Number</type>
+        <update_guid>90624cf423b122107a5cf8aab0e5cd71</update_guid>
+        <update_guid_history>90624cf423b122107a5cf8aab0e5cd71:1208326828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 05:39:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>637ee0ff65e0498db3fd93e0ebfc8f69</sys_id>
+        <sys_metadata>c8624cf483b12210def956d6feaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VEH</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_parent display_value="">6b12c4f483b12210def956d6feaad32a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_scope_delete display_value="">0af4f530209b4d108122cd2327537929</sys_scope_delete>
+        <sys_update_name>sys_number_c8624cf483b12210def956d6feaad355</sys_update_name>
+        <sys_update_version display_value="sys_number_c8624cf483b12210def956d6feaad355">9c624cf483b12210def956d6feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 05:39:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
