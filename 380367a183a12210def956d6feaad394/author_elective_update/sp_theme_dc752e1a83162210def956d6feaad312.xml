@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="DELETE">
+        <css_variables>:root {&#13;
+  /* === Navbar === */&#13;
+  --navbar-bg: #FFFFFF;                    /* Navbar background */&#13;
+  --navbar-divider: #415A77;              /* Divider line */&#13;
+  --navbar-link: #F1F3F5;                 /* Link text color */&#13;
+  --navbar-link-hover: #00B4D8;           /* Link hover color */&#13;
+&#13;
+  /* === Branding === */&#13;
+  --brand-color: #00B4D8;                 /* Logo / brand accent */&#13;
+&#13;
+  /* === Backgrounds === */&#13;
+  --page-bg: #F1F3F5;                     /* General page background */&#13;
+  --panel-bg: #FFFFFF;                    /* Panels / cards / sections */&#13;
+&#13;
+  /* === Buttons &amp; UI === */&#13;
+  --button-default-bg: #415A77;          /* Neutral button background */&#13;
+  --primary-color: #00B4D8;              /* Primary / CTA color */&#13;
+  --success-color: #90EE90;              /* Success state (lime green) */&#13;
+  --info-color: #00B4D8;                 /* Info state, matches primary */&#13;
+  --warning-color: #FFA500;              /* Warning state (orange) */&#13;
+  --danger-color: #FF4C4C;               /* Error/danger state */&#13;
+&#13;
+  /* === Text Colors === */&#13;
+  --text-main: #1B263B;                  /* Primary text */&#13;
+  --text-success: #2E8B57;               /* Success-related text */&#13;
+  --text-muted: #6C757D;                 /* Low-emphasis text */&#13;
+  --link-color: #00B4D8;                 /* Hyperlinks */&#13;
+}&#13;
+</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Loaner Hub Header">83bde2d283562210def956d6feaad38b</header>
+        <name>loaner theme</name>
+        <navbar_fixed>false</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 05:01:35</sys_created_on>
+        <sys_id>dc752e1a83162210def956d6feaad312</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>loaner theme</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sp_theme_dc752e1a83162210def956d6feaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 05:43:01</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</application>
+        <file_path/>
+        <instance_id>0b550d97fb674a141feef633beefdc0e</instance_id>
+        <instance_name>dev280278</instance_name>
+        <name>sp_theme_dc752e1a83162210def956d6feaad312</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>:root {&#13;
+  /* === Navbar === */&#13;
+  --navbar-bg: #FFFFFF;                    /* Navbar background */&#13;
+  --navbar-divider: #415A77;              /* Divider line */&#13;
+  --navbar-link: #F1F3F5;                 /* Link text color */&#13;
+  --navbar-link-hover: #00B4D8;           /* Link hover color */&#13;
+&#13;
+  /* === Branding === */&#13;
+  --brand-color: #00B4D8;                 /* Logo / brand accent */&#13;
+&#13;
+  /* === Backgrounds === */&#13;
+  --page-bg: #F1F3F5;                     /* General page background */&#13;
+  --panel-bg: #FFFFFF;                    /* Panels / cards / sections */&#13;
+&#13;
+  /* === Buttons &amp; UI === */&#13;
+  --button-default-bg: #415A77;          /* Neutral button background */&#13;
+  --primary-color: #00B4D8;              /* Primary / CTA color */&#13;
+  --success-color: #90EE90;              /* Success state (lime green) */&#13;
+  --info-color: #00B4D8;                 /* Info state, matches primary */&#13;
+  --warning-color: #FFA500;              /* Warning state (orange) */&#13;
+  --danger-color: #FF4C4C;               /* Error/danger state */&#13;
+&#13;
+  /* === Text Colors === */&#13;
+  --text-main: #1B263B;                  /* Primary text */&#13;
+  --text-success: #2E8B57;               /* Success-related text */&#13;
+  --text-muted: #6C757D;                 /* Low-emphasis text */&#13;
+  --link-color: #00B4D8;                 /* Hyperlinks */&#13;
+}&#13;
+</css_variables><footer/><footer_fixed>false</footer_fixed><header display_value="Loaner Hub Header">83bde2d283562210def956d6feaad38b</header><name>loaner theme</name><navbar_fixed>false</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 05:01:35</sys_created_on><sys_id>dc752e1a83162210def956d6feaad312</sys_id><sys_mod_count>2</sys_mod_count><sys_name>loaner theme</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope><sys_update_name>sp_theme_dc752e1a83162210def956d6feaad312</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 05:43:01</sys_updated_on><turn_off_scss_compilation>false</turn_off_scss_compilation></sp_theme></record_update>]]></payload>
+        <payload_hash>-651555103</payload_hash>
+        <record_name>loaner theme</record_name>
+        <reverted_from/>
+        <source>3a23af6583a12210def956d6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 05:43:01</sys_created_on>
+        <sys_id>643f625683562210def956d6feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a59c6dbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 05:43:01</sys_updated_on>
+        <type>Theme</type>
+        <update_guid>2c3f6256c2562210cedacb624b37ce14</update_guid>
+        <update_guid_history>2c3f6256c2562210cedacb624b37ce14:-651555103,651b2ade541622103efd1f1c048d8723:923038592,6db5e61ab0162210de502cb5fc9baafa:-1207379638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="loaner theme">1f2b762783122210def956d6feaad3ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-29 03:47:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_theme">sp_theme</sys_db_object>
+        <sys_id>09b2183c0dc24c06835b83d30eb40964</sys_id>
+        <sys_metadata>dc752e1a83162210def956d6feaad312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>loaner theme</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_scope_delete display_value="">0af4f530209b4d108122cd2327537929</sys_scope_delete>
+        <sys_update_name>sp_theme_dc752e1a83162210def956d6feaad312</sys_update_name>
+        <sys_update_version display_value="sp_theme_dc752e1a83162210def956d6feaad312">643f625683562210def956d6feaad315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-29 03:47:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

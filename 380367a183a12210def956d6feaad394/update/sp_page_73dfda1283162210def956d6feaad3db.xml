@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+@media(max-width: 767px) {
+  main.page, main.body {
+    height: auto;
+    min-height: 99vh;
+  }
+}
+
+section.page {
+  background-image: url('la_jolla_sp_login_background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_landing_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 04:36:05</sys_created_on>
+        <sys_id>73dfda1283162210def956d6feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_landing_1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
+        <sys_update_name>sp_page_73dfda1283162210def956d6feaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 04:36:05</sys_updated_on>
+        <title>Copy of Service Portal (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=73dfda1283162210def956d6feaad3db"/>
+</record_update>
