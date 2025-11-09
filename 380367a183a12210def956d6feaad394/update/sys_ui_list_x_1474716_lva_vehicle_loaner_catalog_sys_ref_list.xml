@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1474716_lva_vehicle_loaner_catalog" element="NULL" name="x_1474716_lva_vehicle_loaner_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="e12990533530121087de279753545829">5b665dbd83a92210def956d6feaad32a</list_id>
+            <list_id display_value="x_1474716_lva_vehicle_loaner_catalog" element="NULL" name="x_1474716_lva_vehicle_loaner_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="65938073e13222108bb2327e625886d3">5b665dbd83a92210def956d6feaad32a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-05-17 03:11:08</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">e12990533530121087de279753545829</view>
+            <view display_value="Reference List" name="sys_ref_list">65938073e13222108bb2327e625886d3</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

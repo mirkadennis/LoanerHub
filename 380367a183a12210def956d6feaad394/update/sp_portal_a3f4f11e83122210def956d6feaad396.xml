@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <communication_channels/>
         <css_variables>$brand-primary:#1B263B;&#13;
 $body-bg:#F1F3F5;&#13;
 $state-success-text:#1B263B;&#13;
@@ -27,16 +29,20 @@ $text-muted:#6C757D;&#13;
 </css_variables>
         <dark_theme/>
         <default>false</default>
+        <embeddable_macroponents/>
         <enable_ais>true</enable_ais>
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_embeddables>false</enable_embeddables>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="loaner_homepage">d7cb932f83922210def956d6feaad317</homepage>
         <icon>b42f5a1283162210def956d6feaad393</icon>
+        <inactive>false</inactive>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo>ef1f125a83922210def956d6feaad35a</logo>
+        <logo_alt_text/>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>

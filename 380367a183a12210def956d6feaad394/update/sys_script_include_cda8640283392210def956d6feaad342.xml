@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>includeClass</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var includeClass = Class.create();// this creates a new js class named includeClass, which is my script include. it's like defining the "blueprint" or container for the server-side code i want to write. class.create is for service side API for defining classes.//
 includeClass.prototype = Object.extendsObject(global.AbstractAjaxProcessor, { // my includeClass inherits from AbstractAjaxProfessor. this line sets up my script include so it can be triggered by client-side GlideAjax calls. 
 
