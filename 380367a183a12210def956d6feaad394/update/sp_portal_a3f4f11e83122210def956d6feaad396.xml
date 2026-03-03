@@ -31,7 +31,7 @@ $text-muted:#6C757D;&#13;
         <default>false</default>
         <embeddable_macroponents/>
         <enable_ais>true</enable_ais>
-        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_certificate_based_authentication>true</enable_certificate_based_authentication>
         <enable_embeddables>false</enable_embeddables>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
@@ -42,7 +42,7 @@ $text-muted:#6C757D;&#13;
         <kb_knowledge_page/>
         <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo>ef1f125a83922210def956d6feaad35a</logo>
-        <logo_alt_text/>
+        <logo_alt_text>LoanerHub</logo_alt_text>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>
@@ -57,15 +57,15 @@ $text-muted:#6C757D;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-25 01:29:13</sys_created_on>
         <sys_id>a3f4f11e83122210def956d6feaad396</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>LoanerHub</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1474716_lva">380367a183a12210def956d6feaad394</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">380367a183a12210def956d6feaad394</sys_scope>
         <sys_update_name>sp_portal_a3f4f11e83122210def956d6feaad396</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-01 03:27:35</sys_updated_on>
-        <theme display_value="loanerhubtheme">fbea633f83966210def956d6feaad3f0</theme>
+        <sys_updated_on>2025-11-09 21:14:13</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>LoanerHub</title>
         <ts_index_group/>
         <url_suffix>lhub</url_suffix>
